@@ -1,0 +1,103 @@
+/* Base design */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  background: #ffffffcc;
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.animate-pop {
+  animation: pop 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); }
+  100% { transform: scale(1); }
+}
+
+/* Article and quiz styles */
+.content-box, .quiz-section {
+  background: #eef6ff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.content-box:hover, .quiz-section:hover {
+  transform: scale(1.01);
+}
+
+button {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  width: 60%;
+  font-size: 1rem;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.quiz-box {
+  background: #e3f2fd;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.quiz-question {
+  font-size: 1.1rem;
+  margin: 15px 0;
+}

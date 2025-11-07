@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎮 Gamified Reading Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title animate-pop">📚 Gamified Reading</h1>
+
+    <div id="article" class="content-box"></div>
+
+    <button id="nextBtn" style="display:none;">Next Article</button>
+    <p id="score" class="score">Score: 0</p>
+
+    <div id="quiz-section" class="quiz-section" style="display:none;">
+      <h2>🧠 Combined Quiz Mode</h2>
+      <div id="quiz-question" class="quiz-question"></div>
+      <input id="quiz-answer" type="text" placeholder="Type your answer..." />
+      <button id="submitBtn" onclick="checkQuizAnswer()">Submit</button>
+      <p id="quiz-score" class="quiz-score"></p>
+    </div>
+
+    <button id="start-quiz" onclick="startCombinedQuiz()" class="start-quiz" style="display:none;">Start Combined Quiz</button>
+  </div>
+
+  <!-- 🎵 Sound effects -->
+  <audio id="correctSound" src="correct.mp3"></audio>
+  <audio id="wrongSound" src="wrong.mp3"></audio>
+  <audio id="completeSound" src="complete.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

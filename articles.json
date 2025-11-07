@@ -1,0 +1,57 @@
+[
+  {
+    "title": "The Thirsty Crow",
+    "content": "Once upon a time, on a hot summer day, a thirsty crow flew across the fields searching for water. For a long time, he could not find any. He felt weak and almost lost hope. Suddenly, he saw a pot below a tree. There was a little water in it, but the crow could not reach it. He dropped pebbles one by one until the water rose up. He drank it happily.\n\nMoral: Where there is a will, there is a way.",
+    "puzzles": [
+      { "question": "What was the crow searching for?", "answer": "water" },
+      { "question": "Where did the crow find the pot?", "answer": "under a tree" },
+      { "question": "What did the crow drop into the pot?", "answer": "pebbles" },
+      { "question": "What season was it?", "answer": "summer" },
+      { "question": "What is the moral of the story?", "answer": "where there is a will there is a way" }
+    ]
+  },
+  {
+    "title": "The Honest Woodcutter",
+    "content": "Once there lived a poor woodcutter who earned his living by cutting wood. One day his axe fell into the river. A fairy appeared and offered him a golden axe, a silver axe, and his old one. The woodcutter chose only his old axe. The fairy rewarded his honesty by giving him all three axes.\n\nMoral: Honesty is the best policy.",
+    "puzzles": [
+      { "question": "What fell into the river?", "answer": "axe" },
+      { "question": "Who helped the woodcutter?", "answer": "fairy" },
+      { "question": "What did the fairy offer first?", "answer": "golden axe" },
+      { "question": "What quality did the woodcutter show?", "answer": "honesty" },
+      { "question": "What is the moral of the story?", "answer": "honesty is the best policy" }
+    ]
+  },
+  {
+    "title": "The Lion and the Mouse",
+    "content": "A lion once caught a mouse but decided to let it go. Later, the lion was caught in a hunter’s net. The same mouse came and gnawed the net to free him. The lion thanked the mouse for saving his life.\n\nMoral: Kindness is never wasted.",
+    "puzzles": [
+      { "question": "Who caught the mouse?", "answer": "lion" },
+      { "question": "What did the lion do after catching the mouse?", "answer": "let it go" },
+      { "question": "Who saved the lion later?", "answer": "mouse" },
+      { "question": "What was the lion trapped in?", "answer": "net" },
+      { "question": "What is the moral of the story?", "answer": "kindness is never wasted" }
+    ]
+  },
+  {
+    "title": "The Fox and the Grapes",
+    "content": "A hungry fox saw grapes hanging high. He jumped many times but couldn’t reach them. Finally, he gave up and said, 'Those grapes are sour anyway.'\n\nMoral: It’s easy to hate what you can’t have.",
+    "puzzles": [
+      { "question": "Who saw the grapes?", "answer": "fox" },
+      { "question": "What was the fox trying to eat?", "answer": "grapes" },
+      { "question": "Could the fox reach the grapes?", "answer": "no" },
+      { "question": "What did the fox say at the end?", "answer": "grapes are sour" },
+      { "question": "What is the moral of the story?", "answer": "its easy to hate what you cant have" }
+    ]
+  },
+  {
+    "title": "The Wise Farmer and His Sons",
+    "content": "An old farmer had four sons who always fought. To teach them unity, he tied sticks together in a bundle and asked them to break it. None could break the bundle, but each could break a single stick. They learned that unity gives strength.\n\nMoral: Unity is strength.",
+    "puzzles": [
+      { "question": "How many sons did the farmer have?", "answer": "four" },
+      { "question": "What did the farmer tie together?", "answer": "sticks" },
+      { "question": "Could they break the bundle of sticks?", "answer": "no" },
+      { "question": "What could they break easily?", "answer": "single stick" },
+      { "question": "What is the moral of the story?", "answer": "unity is strength" }
+    ]
+  }
+]
